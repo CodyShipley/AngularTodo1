@@ -1,0 +1,6 @@
+c:\users\cody shipley\documents\visual studio 2013\Projects3\WebApplication3\WebApplication3\bin\WebApplication3.dll.config
+c:\users\cody shipley\documents\visual studio 2013\Projects3\WebApplication3\WebApplication3\bin\WebApplication3.dll
+c:\users\cody shipley\documents\visual studio 2013\Projects3\WebApplication3\WebApplication3\bin\WebApplication3.pdb
+c:\users\cody shipley\documents\visual studio 2013\Projects3\WebApplication3\WebApplication3\obj\Debug\AngularTodo.csprojResolveAssemblyReference.cache
+c:\users\cody shipley\documents\visual studio 2013\Projects3\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
+c:\users\cody shipley\documents\visual studio 2013\Projects3\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb

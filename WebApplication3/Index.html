@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/mycss.css" rel="stylesheet" />
+    <script src="Scripts/todo.js"></script>
+    <script src="Scripts/angular.js"></script>
+</head>
+<body>
+    <!--    Define the ng-app at the start of every angular project! Be sure to remember that.    @-->
+    <div ng-app>
+        <h2>Simple Todo List</h2>
+        <div ng-controller="TodoCtrl">
+            <span>{{remaining()}} of {{todos.length}} remaining</span>
+            <ul class="unstyled">
+                <li ng-repeat="todo in todos">
+                    <input type="checkbox" ng-model="todo.finished">
+                    <span class="finished-{{todo.finished}}">{{todo.text}}</span>
+                </li>
+            </ul>
+            <form ng-submit="addToList()">
+                <input type="text" ng-model="todoText" size="30"
+                       placeholder="Add New Task">
+                <input class="btn-primary" type="submit" value="add">
+
+            </form>
+            <a class="btn btn-danger col-sm-2" href="" ng-click="delete()">Delete Selected</a>
+
+        </div>
+    </div>
+</body>
+</html>
+
